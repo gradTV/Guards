@@ -10,7 +10,7 @@ function test(description, actual, expected) {
     console.error(`❌ Перевірка не пройшла: ${description}`);
     console.error(`   Очікувалось: ${expected}`);
     console.error(`   Отримано: ${actual}`);
-  }
+  } 
 }
 
 // Тести
