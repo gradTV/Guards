@@ -6,6 +6,4 @@ function factorial(n) {
   }
 }
 
-// Пример использования
-const result = factorial(5);
-console.log(`Факториал числа 5: ${result}`);
+module.exports = factorial;
